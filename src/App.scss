@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,800;1,400&family=Montserrat:wght@300;400&display=swap');
+
+:root {
+  --primaryColor: #58157A;
+  --primaryLight: #6D2990;
+  --primaryLighter: #8145A0;
+  --primaryDark: #440763;
+  --primaryDarker: #300247;
+  --secondaryOneColor: #931359;
+  --secondaryOneLight: #AF2B73;
+  --secondaryOneLighter: #C24E8D;
+  --secondaryOneDark: #C24E8D;
+  --secondaryOneDarker: #57002F;
+  --secondaryTwoColor: #351C7D;
+  --secondaryTwoLight: #4A3195;
+  --secondaryTwoLighter: #634DA5;
+  --secondaryTwoDark: #240D66;
+  --secondaryTwoDarker: #17064A;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--secondaryTwoColor);
+}
+
+header {
+  background-color: var(--secondaryTwoDark);
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.title {
+  font-family: 'Karla', sans-serif;
+}
+
+/* Nav */
+nav,
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+footer {
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.link-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
